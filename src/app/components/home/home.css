@@ -1,25 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* SECTIONS */
 section{
   height: 95vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#hero{
-  background-color: blue;
+/* EXPERIENCE */
+
+/* Title */
+#xp-div-titulo{
+padding: 2vh 1vw;
+text-align: center;
 }
 
-#hero > div{
-  height: 10vh;
-  background-color: red;
-}
-
-img{
-  object-fit:cover;
-  height: 100%;
-  width: auto;
+#xp-titulo{
+  font-size: 7vh !important;
 }
 
 #xp{
-  background-color:darkblue;
+  display: flex;
+  flex-direction: column;
 }
+
+
+#xp-div{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1vh 0;
+  height: 65vh;
+}
+
+.xp-card{
+  width: 30%;
+  background-color: lightblue;
+  font-size: 4vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+
+
+
+
+/* PROJECTS */
 
 #projects{
   background-color:dodgerblue;
