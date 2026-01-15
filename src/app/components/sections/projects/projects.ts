@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Card } from '../../bootstrap/card/card';
+import { Project } from '../../my-components/project/project';
 
 @Component({
   selector: 'app-projects',
-  imports: [Card],
+  imports: [Project],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
 })
