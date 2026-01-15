@@ -1,0 +1,18 @@
+#projects{
+  background-color:dodgerblue;
+  height: 100vh;
+  padding: 1vh 1vw;
+}
+
+#projects-title{
+  font-size: 7vh !important;
+  background-color: greenyellow;
+  height:20vh;
+  padding: 1vh 1vw;
+  text-align: center;
+}
+
+#projects-section{
+  height: 90%;
+  background-color: lightblue;
+}
