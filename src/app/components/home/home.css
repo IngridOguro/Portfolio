@@ -7,59 +7,19 @@
   font-style: normal;
 }
 
+body{
+  padding-top: 7vh;
+}
+
 /* SECTIONS */
 section{
-  height: 95vh;
+  height: 100vh;
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-/* EXPERIENCE */
-
-/* Title */
-#xp-div-titulo{
-padding: 2vh 1vw;
-text-align: center;
-}
-
-#xp-titulo{
-  font-size: 7vh !important;
-}
-
-#xp{
-  display: flex;
-  flex-direction: column;
-}
-
-
-#xp-div{
-  background-color: white;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1vh 0;
-  height: 65vh;
-}
-
-.xp-card{
-  width: 30%;
-  background-color: lightblue;
-  font-size: 4vh;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  align-items: center;
-  padding: 2vh 0;
-}
-
-
-
-
 
 /* PROJECTS */
 
