@@ -1,0 +1,30 @@
+section{
+  height: 95vh;
+}
+
+#hero{
+  background-color: blue;
+}
+
+#hero > div{
+  height: 10vh;
+  background-color: red;
+}
+
+img{
+  object-fit:cover;
+  height: 100%;
+  width: auto;
+}
+
+#xp{
+  background-color:darkblue;
+}
+
+#projects{
+  background-color:dodgerblue;
+}
+
+#contact{
+  background-color:lightseagreen;
+}
