@@ -1,0 +1,46 @@
+
+.project{
+  background-color:blueviolet;
+  height: fit-content;
+  padding: 1vh 1vw;
+  display: flex;
+  width:fit-content !important;
+  margin: 1vh 0;
+}
+
+.project-image{
+  height: 47vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.project-image > img{
+  object-fit:fill;
+  height: 100%;
+  width: auto;
+}
+
+.project-info{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vh 1vw;
+}
+
+.project-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.project-links>a{
+  background-color: rgb(107, 226, 43);
+  width: 45%;
+  text-align: center;
+  padding: 1vh 0;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
